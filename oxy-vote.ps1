@@ -234,7 +234,7 @@ function Oxy-Vote()
         $json = $put | ConvertTo-Json
 		if( $PSCmdlet.ShouldProcess( "$json" ) )
 		{
-			#$result += Invoke-WebRequest $urlvote -Method Put -Body $json -ContentType 'application/json' -verbose:$verbose
+			$result += Invoke-WebRequest $urlvote -Method Put -Body $json -ContentType 'application/json' -verbose:$verbose
 			Write-verbose "$VerbosePrefix $urlvote"
 		}
 		else
