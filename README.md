@@ -10,21 +10,21 @@ Default test mode On... You have to confirm to make sure the transaction is appl
 
 vote from a text file list based on oxy address
 
-`oxy-vote -HostUrl https://server.example.com -address <YOUR_oxy_ADDRESS> -Secret '<SECRET_PASSPHRASE_HERE>' -SecondSecret '<SECOND_SECRET_PASSPHRASE_HERE>' -file 'C:\Users\whatever\documents\vote.log' -DataType address -verbose`
+`oxy-vote -HostUrl https://server.example.com -address <YOUR_OXY_ADDRESS> -Secret '<SECRET_PASSPHRASE_HERE>' -SecondSecret '<SECOND_SECRET_PASSPHRASE_HERE>' -file 'C:\Users\whatever\documents\vote.log' -DataType address -verbose`
 
 vote from a text file list based on Delegate Names
 
-`oxy-vote -HostUrl https://server.example.com -address <YOUR_oxy_ADDRESS> -Secret '<SECRET_PASSPHRASE_HERE>' -SecondSecret '<SECOND_SECRET_PASSPHRASE_HERE>' -file 'C:\Users\whatever\documents\vote.log' -DataType DelegateName -verbose`
+`oxy-vote -HostUrl https://server.example.com -address <YOUR_OXY_ADDRESS> -Secret '<SECRET_PASSPHRASE_HERE>' -SecondSecret '<SECOND_SECRET_PASSPHRASE_HERE>' -file 'C:\Users\whatever\documents\vote.log' -DataType DelegateName -verbose`
 
 
 # Remove Voting mode 
 
 Remove from a text file list based on oxy address 
 
-`oxy-vote -HostUrl https://server.example.com -address <YOUR_oxy_ADDRESS> -Secret '<SECRET_PASSPHRASE_HERE>' -SecondSecret '<SECOND_SECRET_PASSPHRASE_HERE>' -file 'C:\Users\whatever\documents\devote.log' -DataType address -Remove:$true -verbose`
+`oxy-vote -HostUrl https://server.example.com -address <YOUR_OXY_ADDRESS> -Secret '<SECRET_PASSPHRASE_HERE>' -SecondSecret '<SECOND_SECRET_PASSPHRASE_HERE>' -file 'C:\Users\whatever\documents\devote.log' -DataType address -Remove:$true -verbose`
 
 Remove from a text file list based on Delegate Names
 
-`oxy-vote -HostUrl https://server.example.com -address <YOUR_oxy_ADDRESS> -Secret '<SECRET_PASSPHRASE_HERE>' -SecondSecret '<SECOND_SECRET_PASSPHRASE_HERE>' -file 'C:\Users\whatever\documents\devote.log' -DataType DelegateName -Remove:$true -verbose`
+`oxy-vote -HostUrl https://server.example.com -address <YOUR_OXY_ADDRESS> -Secret '<SECRET_PASSPHRASE_HERE>' -SecondSecret '<SECOND_SECRET_PASSPHRASE_HERE>' -file 'C:\Users\whatever\documents\devote.log' -DataType DelegateName -Remove:$true -verbose`
 
  
